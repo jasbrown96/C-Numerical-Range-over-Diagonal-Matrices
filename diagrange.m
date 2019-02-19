@@ -1,10 +1,10 @@
-%The function diagrange below takes 3 inputs:C, A, and n. C and A are the
-%two matrices for which we wish to approximate W_diag(C,A). The input n is
-%a parameter to increase the precision of the approximation. For kxk
-%matrices, this function will create n^k diagonal unitary matrices, which
-%have entries evenly spaced via the roots of unity. The output of the
-%function, f, will be an array containing the n^k values of tr(CU*AU). This
-%can be plotted via the command "plot(real(f),imag(f))"
+% The function diagrange below takes 3 inputs:C, A, and n. C and A are the
+% two matrices for which we wish to approximate W_diag(C,A). The input n is
+% a parameter to increase the precision of the approximation. For kxk
+% matrices, this function will create n^k diagonal unitary matrices, which
+% have entries evenly spaced via the roots of unity. The output of the
+% function, f, will be an array containing the n^k values of tr(CU*AU). This
+% can be plotted via the command "plot(real(f),imag(f))"
 
 
 function f = diagrange(C,A,n) %C fixed, finding W(A), taking n^dim points
